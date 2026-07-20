@@ -22,6 +22,7 @@ This is my first photography website created during my second week of learning w
 1. Download or clone the project.
 2. Open the project folder.
 3. Open `index.html` in your web browser.
+
 ##LIVE WEBSITE
 https://saloyo001.github.io/photo/
 
