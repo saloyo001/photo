@@ -12,6 +12,8 @@
     <img class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcoUp6W8Pt3dg1H1xxIBVOavK08NCOjlg1dG8P4PL_Nh3iniU2s_pLwx4k&s=10" height="100px", width="100px" alt="SCHOOL">
     
     <nav>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
         <a class="navlink" href="gallery.html">Gallery</a>
         <a class="navlink" href="favs.html">Join the adventure</a>
         
@@ -28,11 +30,14 @@
     <p class="hero-subtitle">check it</p>
     
     
-    <section>
-        <ul>
-            <li>i love my work</li>
-            <li></li>
-        </ul>
+    
+        <section id="about" class="about">
+        <h2>About Me</h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs5XDFGevZIGlUKdQWH-m7yqOFeseVlKq1dj_lXXjJTA_vMR_-wh1fKIUz&s=10" width="300px" height="300px" alt="">
+        <p>I go by the name <span class="highlight">Salim</span></p>
+        <p>you'd know me best by my work on photography</p>
+        <p>these are one of my favorites below</p>
+    
     </section>
     <a href="gallery.html" class="hero-btn">favs</a>
     </div>
@@ -41,12 +46,31 @@
     
 </body>
 <footer>
+    <section>
+        <div id="contact" class="contact-section" >
 <p>contact me on</p>
 <a href="https://www.facebook.com/salimbasheikh"><i class="fa-brands fa-facebook"></i></a>
 <a href="https://github.com/salimbasheikh"><i class="fa-brands fa-github"></i></a>
 <a href="https://www.linkedin.com/in/salim-basheikh-1b0b4a1b6/"><i class="fa-brands fa-linkedin"></i></a><br>
-<button class="topbutton">
-    <a href="#home">up</a>
+<div class="form">
+
+
+<form action="saloyo001@gmail.com" method="POST" class="contact-form">
+<div class="form-group">
+    <label for="name">Your Full Name:</label>
+    <input type="text" id="name" name="name" required placeholder="Enter your name">
+</div>
+<div class="form-group">
+<label for="email">Email Address:</label>
+<input type="email" id="email" name="email" required placeholder="name@example.com">
+</div>
+<div class="form-group">
+    <label for="message">Your Message:</label>
+    <textarea name="message" id="message" rows="5" required placeholder="Type your message here"></textarea>
+</div>
+<button type="submit" class="submit-button"> <a href="https://mail.google.com/mail/u/0/#inbox?compose=new">Submit</a></button>
+</form>
+        </div>
 </button>
 </footer>
 </html>

@@ -7,7 +7,7 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 body{
-    background: linear-gradient(orangered,yellow);
+    background: linear-gradient(orangered,rgb(255, 166, 0));
     background-repeat: no-repeat;
 
 }
@@ -133,12 +133,7 @@ nav {
     font-size: 50px;
 
 }
-.topbutton{
-    color: aquamarine;
-    font-size: 50px;
-    margin-left: 92%;
-    margin-bottom: 5%;
-}
+
 .grid-container {
   display: grid;
 
@@ -158,4 +153,7 @@ nav {
   padding: 20px;
   text-align: center;
   border-radius: 4px;
+}
+.contact-form{
+  background-color: violet;
 }
