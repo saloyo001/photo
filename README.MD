@@ -34,6 +34,7 @@ https://saloyo001.github.io/photo/
 ## Project Status
 
 This project is a continued development
+
 ## COPYRIGHT AND LICENSE
 copyright by Salim Basheikh 2026
 
