@@ -11,7 +11,7 @@ This is my first photography website created during my second week of learning w
 * Navigation menu
 * Basic CSS styling
 
-## Technologies Used
+## LANGUAGE AND TECHNOLOGY USED
 
 * HTML
 * CSS
@@ -23,10 +23,18 @@ This is my first photography website created during my second week of learning w
 2. Open the project folder.
 3. Open `index.html` in your web browser.
 
+## LIVE WEBSITE
+https://saloyo001.github.io/photo/
+
+
 ## Author
 
 **SALIM BASHEIKH:**
 
 ## Project Status
 
-This project is still in progress as I continue learning web development.
+This project is a continued development
+
+## COPYRIGHT AND LICENSE
+copyright by Salim Basheikh 2026
+
