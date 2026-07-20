@@ -11,7 +11,7 @@ This is my first photography website created during my second week of learning w
 * Navigation menu
 * Basic CSS styling
 
-## Technologies Used
+## LANGUAGE USED
 
 * HTML
 * CSS
