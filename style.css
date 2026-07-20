@@ -116,20 +116,15 @@ nav {
     font-size: 50px;
 
 }
-.fa-linkedin:hover{
-    
-     box-shadow: 5px 5px 5px 5px #1877F2;
-     
-    }
 
+     
+    
 .fa-facebook {
     color: #1877F2;
     font-size: 50px;
     }
-.fa-facebook:hover{
-    border-radius: 50%;
-     box-shadow: 0px 2px 5px #1877F2;
-}
+
+
 .fa-github {
     color: #24292E;
     font-size: 50px;
@@ -171,7 +166,7 @@ nav a:hover{
 }
 
 .form {
-    background-color: lightgrey; 
+    background-color: lightslategrey; 
     color: #f7ede2;
     padding: 20px;
     border-radius: 20px;
@@ -200,16 +195,16 @@ nav a:hover{
 .form-group input, .form-group textarea {
     width: 100%;
     padding: 12px;
-    background-color: white; 
+    background-color: darkgrey; 
     border: 1px solid lightslategray;
     border-radius: 10px;
-    color: #ffffff;
+    color: black;
     font-size: 14px;
 }
 
 .submit-button {
     background-color: #ffffff;
-    color: lightblue;
+    color: blue;
     padding: 12px 24px;
     border: none;
     border-radius: 10px;
