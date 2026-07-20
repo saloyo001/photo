@@ -33,4 +33,4 @@ https://saloyo001.github.io/photo/
 
 ## Project Status
 
-This project is still in progress as I continue learning web development.
+This project is a continued development
