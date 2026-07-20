@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background: linear-gradient(orangered,yellow);
+    background-repeat: no-repeat;
+
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+  border: double;
+  overflow: hidden;
+}
+
+.motto{
+    border: 5px inset black;
+    background-color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: snow;
+  align-items: center;
+  padding: 15px 30px;
+}
+.navlink{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navlink:hover {
+    color: black;
+}
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #e84118;
+
+  background-image: url("https://i.pinimg.com/originals/fb/40/0b/fb400be10486178f262a6a5401e15ac1.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  color: #ffffff;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-bottom: 35px;
+  line-height: 1.6;
+}
+
+.hero-btn {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #ff4757;
+  color: #ffffff;
+  padding: 14px 32px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(255, 71, 87, 0.4);
+}
+
+.hero-btn:hover {
+  background-color: #e84118;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(232, 65, 24, 0.6);
+}
+
+.fa-linkedin {
+    color: #0a66c2;
+    font-size: 50px;
+
+}
+.fa-linkedin:hover{
+    
+     box-shadow: 5px 5px 5px 5px #1877F2;
+     
+    }
+
+.fa-facebook {
+    color: #1877F2;
+    font-size: 50px;
+    }
+.fa-facebook:hover{
+    border-radius: 50%;
+     box-shadow: 0px 2px 5px #1877F2;
+}
+.fa-github {
+    color: #24292E;
+    font-size: 50px;
+
+}
+.topbutton{
+    color: aquamarine;
+    font-size: 50px;
+    margin-left: 92%;
+    margin-bottom: 5%;
+}
+.grid-container {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.item {
+  background-color: rgb(230, 207, 173);
+  border: 2px solid rgb(255, 145, 0);
+  padding: 20px;
+  text-align: center;
+  border-radius: 4px;
+}
