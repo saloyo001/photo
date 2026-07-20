@@ -7,7 +7,7 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 body{
-    background: linear-gradient(orangered,rgb(255, 166, 0));
+    background: linear-gradient(grey,black);
     background-repeat: no-repeat;
 
 }
@@ -142,21 +142,21 @@ nav {
   gap: 10px;
 }
 .item {
-  background-color: rgb(230, 207, 173);
-  border: 2px solid rgb(255, 145, 0);
+  background-color: rgb(53, 53, 77);
+  border: 2px solid rgb(0, 60, 255);
   padding: 20px;
   text-align: center;
   border-radius: 4px;
 }
 .item2 {
-  background-color: rgb(183, 173, 230);
-  border: 2px solid rgb(5, 3, 0);
+  background-color: rgb(79, 79, 112);
+  border: 2px solid rgb(44, 7, 194);
   padding: 20px;
   text-align: center;
   border-radius: 4px;
 }
 .contact-form{
-  background-color: violet;
+  background-color: rgb(58, 56, 56);
 }
 nav{
   background-color: rgb(0,0,0,0.5);
@@ -168,3 +168,56 @@ nav{
 nav a:hover{
   color: white;
 }
+
+.form {
+    background-color: lightgrey; 
+    color: #f7ede2;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    display: block;
+    overflow: hidden;
+}
+
+.form h2 {
+    font-size: 22px;
+    color: #f7ede2;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #e3b5a4;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 12px;
+    background-color: white; 
+    border: 1px solid lightslategray;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.submit-button {
+    background-color: #ffffff;
+    color: lightblue;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+
+.submit-button:hover {
+    background-color: #e3b5a4; 
+  }
