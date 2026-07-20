@@ -114,6 +114,7 @@ nav {
 .fa-linkedin {
     color: #0a66c2;
     font-size: 50px;
+    padding: 10px;
 
 }
 
@@ -122,12 +123,15 @@ nav {
 .fa-facebook {
     color: #1877F2;
     font-size: 50px;
+    padding: 10px;
+    
     }
 
 
 .fa-github {
     color: #24292E;
     font-size: 50px;
+    padding: 10px;
 
 }
 
@@ -153,6 +157,8 @@ nav {
 }
 .contact-form{
   background-color: rgb(58, 56, 56);
+  padding: 10px;
+
 }
 nav{
   background-color: rgb(0,0,0,0.5);
@@ -170,7 +176,7 @@ nav a:hover{
     color: #f7ede2;
     padding: 20px;
     border-radius: 20px;
-    margin-bottom: 25px;
+    
     display: block;
     overflow: hidden;
 }
@@ -181,9 +187,10 @@ nav a:hover{
     margin-bottom: 15px;
 }
 
-.form-group {
-    margin-bottom: 15px;
+.form-group{
+  padding-top: 25px;
 }
+
 
 .form-group label {
     display: block;
@@ -216,4 +223,7 @@ nav a:hover{
 
 .submit-button:hover {
     background-color: #e3b5a4; 
+  }
+  .contact-section{
+    padding: 10px;
   }
