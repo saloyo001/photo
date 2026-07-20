@@ -15,7 +15,7 @@ This is my first photography website created during my second week of learning w
 
 * HTML
 * CSS
-* VSCODE.
+* VSCODE
 
 ## How to Run the Project
 
